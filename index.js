@@ -5,7 +5,7 @@ module.exports = class BugZapper {
     this.showFileName = options.showFileName || false
     this.fullFilePath = options.fullFilePath || false
     this.pointMessage = new String(options.logMessage || "Point fired at line %l")
-    this.varMessage = new String(options.varMessage || "Line %l fired: %k = %v")
+    this.varMessage = new String(options.varMessage || "Line %l fired: %v")
     this.alterVarLN = new Number(options.alterVarLN || -1)
     this.alterPtLN = new Number(options.alterPtLN || 0)
   }
@@ -25,7 +25,7 @@ module.exports = class BugZapper {
     if (typeof v !== "object") return console.log((bz__line - this.alterVarLN + " argument must be Object."))
     let key = Object.keys(v)
     let value = key.map(k => `${k} = ${v[k]}`).join(", ")
-    let m = this.fn + this.varMessage.replace("%l", bz__line + this.alterVarLN).replace("%k", key).replace("%v", value)
+    let m = this.fn + this.varMessage.replace("%l", bz__line + this.alterVarLN).replace("%v", value)
     console.log(m)
   }
 

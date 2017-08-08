@@ -37,7 +37,7 @@ const bz = new BugZapper({
     showFileName: false, // Show name of file.
     fullFilePath: false // Show the entire path to file.
     pointMessage: "Point fired at line %l" // Redefine the message for bz.pt and bz.pt(), %l = line number
-    varMessage: "Line %l fired: %k = %v" // Redefine the message for bz.var(), %l = line number, %k = Key/Variable name, %v = variable value
+    varMessage: "Line %l fired: %k = %v" // Redefine the message for bz.var(), %l = line number, %v = the variables mapped as name = value, ...
     alterVarLN: -1 // Offset the line number shown for bz.var() compared to its location in the code + (moves down) or - (moves up)
     alterPtLN: 0 // Offset the line number shown for bz.pt and bz.pt() compared to their location in the code + or -
 })

@@ -27,13 +27,6 @@ checkDoor(true)
 checkDoor(false)
 // door.js - Line 6 fired: isBarred = false
 // door.js - Point fired at line 12: The door should never be unbarred
-
-
-
-bz.pt("This should never happen"); // myfile.js - Point fired at line 8: This should never happen
-
-let myStatement = false
-bz.var({myStatement}) // myfile.js - Line 10 fired: myStatement = false
 ```
 
 ### Options

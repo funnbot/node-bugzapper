@@ -50,11 +50,11 @@ const bz = new BugZapper({
 bz.pt; // myfile.js - Point fired at line 152
 ```
 
-### pt()
+### ptm()
 
-##### bz.pt(\<Your Message\>) - Mark a point in your code to be logged with a message when it is reached
+##### bz.ptm(\<Your Message\>) - Mark a point in your code to be logged with a message when it is reached
 ```js
-bz.pt("This should never happen"); // myfile.js - Point fired at line 892: This should never happen
+bz.ptm("This should never happen"); // myfile.js - Point fired at line 892: This should never happen
 ```
 
 ### var()

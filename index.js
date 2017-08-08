@@ -15,7 +15,7 @@ module.exports = class BugZapper {
     console.log(m)
   }
 
-  set pt(t) {
+  ptm(t) {
     let m = this.fn + this.pointMessage.replace("%l", bz__line + this.alterPtLN).replace("%f", bz__filename)
     console.log(m)
   }

@@ -15,7 +15,7 @@ function checkDoor(isBarred) {
         bz.pt
         return "move on"
     } else {
-        bz.pt("The door should never be unbarred")
+        bz.ptm("The door should never be unbarred")
         return "open"
     }
 }

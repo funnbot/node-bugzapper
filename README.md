@@ -52,7 +52,7 @@ bz.pt; // myfile.js - Point fired at line 152
 
 ### pt()
 
-##### bz.pt(<Your Message>) - Mark a point of your code to be logged with a message when it is reached
+##### bz.pt(\<Your Message\>) - Mark a point of your code to be logged with a message when it is reached
 ```js
 bz.pt("This should never happen"); // myfile.js - Point fired at line 892: This should never happen
 ```

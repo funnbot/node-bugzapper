@@ -57,7 +57,7 @@ bz.pt; // myfile.js - Point fired at line 152
 bz.pt("This should never happen"); // myfile.js - Point fired at line 892: This should never happen
 ```
 
-### var()'
+### var()
 
 ##### bz.var({variable[, ...]}) - Mark a variable in your code to have its name and value logged when it is reached, must be an object, 
 ```js

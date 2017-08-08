@@ -1,6 +1,6 @@
 {
   "name": "bugzapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple bug zapping for your node application. ",
   "main": "index.js",
   "scripts": {

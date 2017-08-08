@@ -1,0 +1,24 @@
+{
+  "name": "bugzapper",
+  "version": "1.0.0",
+  "description": "Simple bug zapping for your node application. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funnbot/node-bugzapper.git"
+  },
+  "keywords": [
+    "Bug",
+    "Zapper",
+    "Node"
+  ],
+  "author": "Funnbot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/funnbot/node-bugzapper/issues"
+  },
+  "homepage": "https://github.com/funnbot/node-bugzapper#readme"
+}

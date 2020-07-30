@@ -1,6 +1,6 @@
 {
-  "name": "bugzapper",
-  "version": "1.0.3",
+  "name": "@funnbot/bugzapper",
+  "version": "1.0.4",
   "description": "Simple bug zapping for your node application. ",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/funnbot/node-bugzapper/issues"
   },
-  "homepage": "https://github.com/funnbot/node-bugzapper#readme"
+  "homepage": "https://github.com/funnbot/node-bugzapper#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
